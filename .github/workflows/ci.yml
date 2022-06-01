@@ -30,8 +30,8 @@ jobs:
         uses: gozala/typescript-error-reporter-action@v1.0.8
         with:
           project: ./tsconfig.json
-  test-node:
-    name: Test Node
+  test:
+    name: Test
     runs-on: ${{ matrix.os }}
 
     strategy:
@@ -54,27 +54,4 @@ jobs:
         uses: bahmutov/npm-install@v1
 
       - name: Test
-        run: yarn test:node
-  test-web:
-    name: Test Web
-    runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version:
-          - 16
-
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-
-      - name: Setup Node
-        uses: actions/setup-node@v2
-        with:
-          node-version: 16
-
-      - name: Install dependencies
-        uses: bahmutov/npm-install@v1
-
-      - name: Test
-        run: yarn test:web
+        run: yarn test
