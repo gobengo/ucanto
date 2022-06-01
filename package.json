@@ -1,7 +1,7 @@
 {
   "name": "@gobengo/ucanto-monorepo",
   "repository": "https://github.com/gobengo/ucanto",
-  "version": "0.0.1",
+  "version": "0.0.1-beta",
   "type": "module",
   "workspaces": [
     "packages/interface",
