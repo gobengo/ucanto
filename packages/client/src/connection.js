@@ -1,4 +1,4 @@
-import * as API from "@ucanto/interface"
+import * as API from "ucanto-interface"
 import { sha256 } from "multiformats/hashes/sha2"
 
 /**

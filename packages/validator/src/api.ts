@@ -5,10 +5,10 @@ import type {
   Delegation,
   Identity,
   Authority,
-} from "@ucanto/interface"
+} from "ucanto-interface"
 
 export type { Capability }
-export * from "@ucanto/interface"
+export * from "ucanto-interface"
 
 /**
  * Error produced when accessing a capability

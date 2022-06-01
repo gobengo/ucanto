@@ -1,7 +1,7 @@
 import test from "ava"
 import { access } from "../src/lib.js"
 import * as Client from "@ucanto/client"
-import * as API from "@ucanto/interface"
+import * as API from "ucanto-interface"
 import * as StoreAdd from "./capability/store/add.js"
 import { alice, bob, mallory, service } from "./fixtures.js"
 import * as UCAN from "@ipld/dag-ucan"

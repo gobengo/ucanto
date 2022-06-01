@@ -1,7 +1,7 @@
 import * as ED25519 from "@noble/ed25519"
 import { varint } from "multiformats"
 import * as UCAN from "@ipld/dag-ucan"
-import * as API from "@ucanto/interface"
+import * as API from "ucanto-interface"
 import * as Authority from "./authority.js"
 import { base64pad } from "multiformats/bases/base64"
 
