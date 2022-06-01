@@ -1,5 +1,6 @@
 {
   "name": "@gobengo/ucanto-monorepo",
+  "private": true,
   "repository": "https://github.com/gobengo/ucanto",
   "version": "0.0.1",
   "type": "module",
@@ -17,7 +18,7 @@
     "test:node": "c8 --check-coverage --branches 85 --functions 70 --lines 80 mocha test/**/*.spec.js",
     "test": "npm run test:node",
     "coverage": "c8 --reporter=html mocha test/test-*.js && npm_config_yes=true npx st -d coverage -p 8080",
-    "typecheck": "tsc --build"
+    "typecheck": "yarn workspaces foreach --no-private run typecheck"
   },
   "devDependencies": {
     "typescript": "^4.7.2"
