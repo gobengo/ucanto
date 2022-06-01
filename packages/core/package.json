@@ -1,5 +1,6 @@
 {
   "name": "@ucanto/core",
+  "private": true,
   "description": "ucanto core",
   "version": "0.0.1-dev",
   "keywords": [
