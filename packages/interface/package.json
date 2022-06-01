@@ -1,5 +1,6 @@
 {
   "name": "@ucanto/interface",
+  "private": true,
   "description": "interface definitions for ucanto",
   "version": "0.0.1-dev",
   "types": "./dist/src/lib.d.ts",
