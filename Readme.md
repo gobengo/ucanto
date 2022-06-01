@@ -1,0 +1,3 @@
+# ucanto
+
+monorepo.
