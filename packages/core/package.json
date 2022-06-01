@@ -34,7 +34,7 @@
     "@ipld/dag-cbor": "^7.0.1",
     "multiformats": "^9.6.4",
     "@ipld/dag-ucan": "^1.5.0-beta",
-    "@ucanto/interface": "0.0.1-dev"
+    "@ucanto/interface": "workspace:*"
   },
   "devDependencies": {
     "subprogram": "^1.2.0",
