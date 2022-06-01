@@ -555,7 +555,7 @@ __metadata:
     playwright-test: ^7.3.0
     subprogram: ^1.2.0
     typescript: ^4.6.3
-    ucanto-interface: "workspace:packages/interface"
+    ucanto-interface: "file:../interface"
   languageName: unknown
   linkType: soft
 
@@ -5274,6 +5274,15 @@ __metadata:
   bin:
     ucan-storage: src/cli.js
   checksum: 223e18e92dd6d63003e635f7ca13fa1df0429d854bcb42290de3ae53dfefde4d9897a397f0d40a525bf997fdfe5da533acf556590e61ca01dbf7585e1cbaaee1
+  languageName: node
+  linkType: hard
+
+"ucanto-interface@file:../interface::locator=%40ucanto%2Fcore%40workspace%3Apackages%2Fcore":
+  version: 0.0.0
+  resolution: "ucanto-interface@file:../interface#../interface::hash=b4bd09&locator=%40ucanto%2Fcore%40workspace%3Apackages%2Fcore"
+  dependencies:
+    "@ipld/dag-ucan": ^1.5.0-beta
+  checksum: fb44a648a5879d90bf95b6acabdb5b665bf91b987bbaefe248f00ca43e8d9fc4b09d029e87f89abb7eca858ff68d08706765db5e5949ed94ec89355211282198
   languageName: node
   linkType: hard
 
