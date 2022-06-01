@@ -480,7 +480,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ucanto/authority@0.0.1-dev, @ucanto/authority@workspace:packages/authority":
+"@ucanto/authority@workspace:*, @ucanto/authority@workspace:packages/authority":
   version: 0.0.0-use.local
   resolution: "@ucanto/authority@workspace:packages/authority"
   dependencies:
@@ -506,7 +506,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@ucanto/client@^0.0.1-dev, @ucanto/client@workspace:packages/client":
+"@ucanto/client@workspace:*, @ucanto/client@workspace:packages/client":
   version: 0.0.0-use.local
   resolution: "@ucanto/client@workspace:packages/client"
   dependencies:
@@ -515,7 +515,7 @@ __metadata:
     "@ipld/dag-ucan": ^1.5.0-beta
     "@types/chai": ^4.3.0
     "@types/mocha": ^9.1.0
-    "@ucanto/interface": 0.0.1-dev
+    "@ucanto/interface": "workspace:*"
     "@web-std/fetch": ^4.1.0
     "@web-std/file": ^3.0.2
     c8: ^7.11.0
@@ -533,7 +533,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@ucanto/core@0.0.1-dev, @ucanto/core@workspace:packages/core":
+"@ucanto/core@workspace:*, @ucanto/core@workspace:packages/core":
   version: 0.0.0-use.local
   resolution: "@ucanto/core@workspace:packages/core"
   dependencies:
@@ -559,7 +559,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@ucanto/interface@0.0.1-dev, @ucanto/interface@workspace:*, @ucanto/interface@workspace:packages/interface":
+"@ucanto/interface@workspace:*, @ucanto/interface@workspace:packages/interface":
   version: 0.0.0-use.local
   resolution: "@ucanto/interface@workspace:packages/interface"
   dependencies:
@@ -577,8 +577,8 @@ __metadata:
     "@ipld/dag-ucan": ^1.5.0-beta
     "@types/chai": ^4.3.0
     "@types/mocha": ^9.1.0
-    "@ucanto/core": 0.0.1-dev
-    "@ucanto/interface": 0.0.1-dev
+    "@ucanto/core": "workspace:*"
+    "@ucanto/interface": "workspace:*"
     "@web-std/fetch": ^4.1.0
     "@web-std/file": ^3.0.2
     c8: ^7.11.0
@@ -605,8 +605,8 @@ __metadata:
     "@ipld/dag-ucan": ^1.5.0-beta
     "@types/chai": ^4.3.0
     "@types/mocha": ^9.1.0
-    "@ucanto/authority": 0.0.1-dev
-    "@ucanto/client": ^0.0.1-dev
+    "@ucanto/authority": "workspace:*"
+    "@ucanto/client": "workspace:*"
     "@web-std/fetch": ^4.1.0
     "@web-std/file": ^3.0.2
     ava: ^4.2.0

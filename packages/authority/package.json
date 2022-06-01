@@ -1,7 +1,6 @@
 {
   "name": "@ucanto/authority",
   "description": "ed25519 identity",
-  "version": "0.0.1-dev",
   "keywords": [
     "UCAN",
     "ed25519",
