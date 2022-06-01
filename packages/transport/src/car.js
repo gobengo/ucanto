@@ -1,4 +1,4 @@
-import * as API from "ucanto-interface"
+import * as API from "@ucanto/interface"
 import { pack, unpack } from "./packet.js"
 import * as CAR from "./car/codec.js"
 import * as UCAN from "@ipld/dag-ucan"

@@ -1,4 +1,4 @@
-import * as API from "ucanto-interface"
+import * as API from "@ucanto/interface"
 import * as UCAN from "@ipld/dag-ucan"
 
 /**

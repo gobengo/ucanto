@@ -1,7 +1,7 @@
 import * as DID from "@ipld/dag-ucan/src/did.js"
 import * as ED25519 from "@noble/ed25519"
 import { varint } from "multiformats"
-import * as API from "ucanto-interface"
+import * as API from "@ucanto/interface"
 import * as UCAN from "@ipld/dag-ucan"
 export const code = 0xed
 

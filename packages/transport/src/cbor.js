@@ -1,4 +1,4 @@
-import * as API from "ucanto-interface"
+import * as API from "@ucanto/interface"
 import * as CBOR from "@ipld/dag-cbor"
 
 const HEADERS = Object.freeze({
