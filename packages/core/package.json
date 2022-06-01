@@ -1,6 +1,6 @@
 {
   "name": "@gobengo/ucanto-core",
-  "private": true,
+  "version": "0.0.1",
   "description": "ucanto core",
   "keywords": [
     "UCAN",

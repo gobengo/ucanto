@@ -9,7 +9,6 @@ import type {
   Result,
   Connection,
   Service,
-  Agent,
 } from "./lib.js"
 
 export type QueryInput = {

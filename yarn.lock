@@ -284,6 +284,7 @@ __metadata:
   resolution: "@gobengo/ucanto-interface@workspace:packages/interface"
   dependencies:
     "@ipld/dag-ucan": ^1.5.0-beta
+    multiformats: ^9.6.4
     typescript: ^4.6.3
   languageName: unknown
   linkType: soft
@@ -291,6 +292,8 @@ __metadata:
 "@gobengo/ucanto-monorepo@workspace:.":
   version: 0.0.0-use.local
   resolution: "@gobengo/ucanto-monorepo@workspace:."
+  dependencies:
+    typescript: ^4.7.2
   languageName: unknown
   linkType: soft
 
@@ -5253,7 +5256,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^4.6.3":
+"typescript@npm:^4.6.3, typescript@npm:^4.7.2":
   version: 4.7.2
   resolution: "typescript@npm:4.7.2"
   bin:
@@ -5263,7 +5266,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.6.3#~builtin<compat/typescript>":
+"typescript@patch:typescript@^4.6.3#~builtin<compat/typescript>, typescript@patch:typescript@^4.7.2#~builtin<compat/typescript>":
   version: 4.7.2
   resolution: "typescript@patch:typescript@npm%3A4.7.2#~builtin<compat/typescript>::version=4.7.2&hash=7ad353"
   bin:

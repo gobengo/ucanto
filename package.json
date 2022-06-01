@@ -18,5 +18,8 @@
     "test": "npm run test:node",
     "coverage": "c8 --reporter=html mocha test/test-*.js && npm_config_yes=true npx st -d coverage -p 8080",
     "typecheck": "tsc --build"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.2"
   }
 }
