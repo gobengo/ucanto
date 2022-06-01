@@ -1,4 +1,4 @@
-import * as API from "@ucanto/interface"
+import * as API from "@gobengo/ucanto-interface"
 
 /**
  * Creates a connection to a service.

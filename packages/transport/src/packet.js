@@ -1,6 +1,6 @@
-import * as API from "@ucanto/interface"
+import * as API from "@gobengo/ucanto-interface"
 import * as UCAN from "@ipld/dag-ucan"
-import { Delegation, isLink, exportDelegation } from "@ucanto/core"
+import { Delegation, isLink, exportDelegation } from "@gobengo/ucanto-core"
 
 /**
  * Packs issued invocations into a set of UCAN invocation and delegation blocks.

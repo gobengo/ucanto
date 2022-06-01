@@ -1,5 +1,7 @@
 {
-  "name": "@ucanto/interface",
+  "name": "@gobengo/ucanto-interface",
+  "repository": "https://github.com/gobengo/ucanto",
+  "version": "0.0.1",
   "description": "interface definitions for ucanto",
   "types": "./dist/src/lib.d.ts",
   "main": "./src/lib.js",
@@ -12,10 +14,6 @@
     "src",
     "dist/src"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/web3-storage/ucanto.git"
-  },
   "homepage": "https://github.com/web3-storage/ucanto",
   "scripts": {
     "prepare": "tsc --build",

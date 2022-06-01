@@ -1,6 +1,6 @@
 import * as API from "./api.js"
 import * as UCAN from "@ipld/dag-ucan"
-import { isLink, Delegation } from "@ucanto/core"
+import { isLink, Delegation } from "@gobengo/ucanto-core"
 import { the } from "./util.js"
 import {
   UnavailableProof,

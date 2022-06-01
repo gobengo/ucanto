@@ -1,5 +1,5 @@
-import { isLink } from "@ucanto/core"
-import * as API from "@ucanto/interface"
+import { isLink } from "@gobengo/ucanto-core"
+import * as API from "@gobengo/ucanto-interface"
 import * as UCAN from "@ipld/dag-ucan"
 
 /**

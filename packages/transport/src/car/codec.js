@@ -1,4 +1,4 @@
-import * as API from "@ucanto/interface"
+import * as API from "@gobengo/ucanto-interface"
 import * as CARWriter from "@ipld/car/buffer-writer"
 import { CarReader } from "@ipld/car/reader"
 import { CID } from "multiformats/cid"

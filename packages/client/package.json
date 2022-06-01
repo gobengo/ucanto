@@ -29,10 +29,10 @@
     "typecheck": "tsc --build"
   },
   "dependencies": {
+    "@gobengo/ucanto-interface": "workspace:*",
     "@ipld/car": "^4.1.0",
     "@ipld/dag-cbor": "^7.0.1",
     "@ipld/dag-ucan": "^1.5.0-beta",
-    "@ucanto/interface": "workspace:*",
     "multiformats": "^9.6.4"
   },
   "devDependencies": {

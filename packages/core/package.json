@@ -1,5 +1,5 @@
 {
-  "name": "@ucanto/core",
+  "name": "@gobengo/ucanto-core",
   "private": true,
   "description": "ucanto core",
   "keywords": [
@@ -17,7 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/web3-storage/ucanto.git"
+    "url": "https://github.com/gobengo/ucanto.git"
   },
   "homepage": "https://github.com/web3-storage/ucanto",
   "scripts": {
@@ -29,10 +29,10 @@
     "typecheck": "tsc --build"
   },
   "dependencies": {
+    "@gobengo/ucanto-interface": "workspace:packages/interface",
     "@ipld/car": "^4.1.0",
     "@ipld/dag-cbor": "^7.0.1",
     "@ipld/dag-ucan": "^1.5.0-beta",
-    "@ucanto/interface": "workspace:packages/interface",
     "multiformats": "^9.6.4"
   },
   "devDependencies": {
