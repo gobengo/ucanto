@@ -1,5 +1,6 @@
 {
   "name": "@ucanto/client",
+  "private": true,
   "description": "UCAN RPC Client",
   "keywords": [
     "UCAN",

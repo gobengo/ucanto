@@ -1,5 +1,6 @@
 {
   "name": "@ucanto/transport",
+  "private": true,
   "description": "ucanto transport",
   "keywords": [
     "UCAN",

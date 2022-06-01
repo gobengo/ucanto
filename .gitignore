@@ -1,5 +1,6 @@
 dist
 .nyc_output
+/.npmrc
 tmp
 node_modules
 

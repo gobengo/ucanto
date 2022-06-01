@@ -1,5 +1,6 @@
 {
   "name": "@ucanto/validator",
+  "private": true,
   "description": "ed25519 identity",
   "keywords": [
     "UCAN",

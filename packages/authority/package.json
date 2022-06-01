@@ -1,5 +1,6 @@
 {
   "name": "@ucanto/authority",
+  "private": true,
   "description": "ed25519 identity",
   "keywords": [
     "UCAN",
